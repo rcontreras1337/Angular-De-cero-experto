@@ -1,0 +1,33 @@
+## crear proyecto por CLI
+ng new bases
+
+## inicir angular, es que apenas este disponible lo desplegara
+ng serve -o
+
+## Crear componentes con CLI
+** por defecto el path siempre sera en app, por lo tanto si 
+** queremos crear un componente dentro de una carpeta seria heroes/listado donde
+** el ultimo nombre es la carpeta nueva, la ruta a declarar seria
+** app/heroes/listado
+** g = generate
+** c = component
+ng generate component $path
+
+## Generar un modulo para una carpeta
+ng g m dbz
+** m = modulo
+** dbz = carpeta de destino en main del app
+
+## importación componentes
+Los componentes van en las declaraciones 
+
+## Generar un componente sin los test
+ng g c dbz/mainPage --skipTests
+** --skipTests = salta los archivos de tests
+
+## Significado de parentesis dentro de un HTLM
+los () significan que se esta escuchando un evento, one bind direction, cambia valores o emite un evento
+
+## Significado corchetes en html []
+Establecer alguna propiedad a un objeto, solo lectura
+
